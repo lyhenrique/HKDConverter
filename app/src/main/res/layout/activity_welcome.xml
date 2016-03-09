@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#26A69A"
+    tools:context="com.ericlau.hkdconverter.Welcome">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_welcome"
+        android:src="@drawable/welcome_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:src="@drawable/hkd"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img_welcome"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIU Yuhao"
+        android:textSize="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/student_id"
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_id"
+        android:text="54139851"
+        android:textSize="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="version : 1.0.0"
+        android:textSize="10dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

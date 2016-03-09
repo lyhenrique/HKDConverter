@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">港币汇率换算器</string>
+    <string name="hkd_text">港币($):</string>
+    <string name="rmb_text">人民币(元):</string>
+    <string name="usd_text">美元($):</string>
+    <string name="gbp_text">英镑(£):</string>
+    <string name="eur_text">欧元(€):</string>
+    <string name="jpy_text">日元(¥):</string>
+    <string name="btn_convert">换算</string>
+    <string name="btn_clear">清空</string>
+    <string name="hint"> 请输入港币数额!</string>
+    <string name="menu_about">关于作者</string>
+    <string name="menu_contact">联系作者</string>
+    <string name="lan_eng">English</string>
+    <string name="lan_chi_sim">简体中文</string>
+    <string name="lan_chi_tra">繁體中文</string>
+    <string name="menu_language">语言</string>
+    <string name="author">刘彧昊</string>
+    <string name="tel">电话:59342135</string>
+    <string name="share_text">分享</string>
+    <string name="update_exchange_rate">实时数据</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/language_id"
+        android:title="@string/menu_language"
+        apps:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@+id/flanguage_id"
+                android:title="@string/lan_eng"
+                />
+            <item
+                android:id="@+id/slanguage_id"
+                android:title="@string/lan_chi_sim"
+                />
+            <item
+                android:id="@+id/tlanguage_id"
+                android:title="@string/lan_chi_tra"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/share_id"
+        android:title="@string/share_text"
+        android:icon="@drawable/share"
+        apps:showAsAction="always"
+        />
+    <item
+        android:id="@+id/about_us_id"
+        android:title="@string/menu_about"
+        apps:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/contact_us_id"
+        android:title="@string/menu_contact"
+        apps:showAsAction="never"
+        />
+
+</menu>
